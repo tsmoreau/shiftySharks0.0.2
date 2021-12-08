@@ -55,7 +55,7 @@ export default function Home() {
   const [rightfinname, setRightFinName] = useState([]);
   const [rightfinrarity, setRightFinRarity] = useState([]);
 
-  const [extranname, setExtraName] = useState([]);
+  const [extraname, setExtraName] = useState([]);
   const [extrararity, setExtraRarity] = useState([]);
 
   const router = useRouter();
@@ -864,6 +864,47 @@ export default function Home() {
                           <div className=""></div>
                         )}
                       </div>
+                      {/* Extra Trait Logic */}
+                      <div>
+                        {extrararity === 1 ? (
+                          <div className="text-center pt-1.5 pb-1 font-mono rounded-lg bg-gray-50 border px-5 mx-1 mt-2 text-gray-500">
+                            Animation: {extraname}
+                          </div>
+                        ) : (
+                          <div className=""></div>
+                        )}
+
+                        {extrararity === 2 ? (
+                          <div className="text-center pt-1.5   pb-1 text-center font-mono rounded-lg bg-green-500 border px-5 mx-1 mt-2">
+                            Animation: {extraname}
+                          </div>
+                        ) : (
+                          <div className=""></div>
+                        )}
+
+                        {extrararity === 3 ? (
+                          <div className="text-center pt-1.5   pb-1 text-center font-mono rounded-lg bg-blue-500 border px-5 mx-1 mt-2">
+                            Animation: {extraname}
+                          </div>
+                        ) : (
+                          <div className=""></div>
+                        )}
+
+                        {extrararity === 4 ? (
+                          <div className="text-center pt-1.5   pb-1 text-center font-mono rounded-lg bg-purple-600 border px-5 mx-1 mt-2">
+                            Animation: {extraname}
+                          </div>
+                        ) : (
+                          <div className=""></div>
+                        )}
+                        {extrararity === 5 ? (
+                          <div className="text-center pt-1.5   pb-1 text-center font-mono rounded-lg bg-orange-500 border px-5 mx-1 mt-2">
+                            Animation: {extraname}
+                          </div>
+                        ) : (
+                          <div className=""></div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ) : (
@@ -921,8 +962,8 @@ export default function Home() {
         <div className="pb-44 shadow-lg pt-8 h-36 bg-indigo-800 w-full justify-center backdrop-filter backdrop-blur-lg bg-opacity-100">
           <ul className="w-44 text-gray-200 pt-6 font-mono text-sm flex flex-row justify-center text-center mx-auto">
             <li className=" mx-1.5">
-              <a href="/about" className="cursor-pointer">
-                about
+              <a href="/faq" className="cursor-pointer">
+                faq
               </a>
             </li>
             <li className=" mx-1.5">

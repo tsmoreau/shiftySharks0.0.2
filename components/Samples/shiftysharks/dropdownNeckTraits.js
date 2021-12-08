@@ -7,7 +7,7 @@ import { ethers } from "ethers";
 import { sharkStorageAddress } from "../../../config";
 import Storage from "../../../abis/sharkStorage.json";
 import { colorRarity, colorNames, colorSVGCodes } from "./traits";
-import { neckParts } from "./traits_backup";
+import { neckParts } from "./traits";
 
 const people = [
   {

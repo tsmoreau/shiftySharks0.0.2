@@ -75,47 +75,53 @@ export default function Home({ isConnected }) {
         </div>
         <h2
           id="depict5"
-          className="mt-24 text-center flex mx-auto text-gray-800 text-5xl font-bold font-mono "
+          className="mt-24 text-center flex mx-auto text-gray-800 text-5xl font-bold font-mono leading-none"
         >
           depict limited.
         </h2>
         <h2
           id="depict5"
-          className="mt-1 text-center flex mx-auto text-gray-800 text-5xl font-bold font-mono mb-6"
+          className="leading-none mt-1 text-center flex mx-auto text-gray-800 text-5xl font-bold font-mono mb-6"
         >
           premium nft projects.
         </h2>
 
-        <div className="mt-12 px-4 border md:px-4 flex flex-wrap justify-center w-screen">
+        <div className="mt-18 px-4 md:px-4 flex flex-wrap justify-center w-screen">
           <div className="w-2/5 px-6 border rounded-md  mx-1 mb-2">
             <ul className=" flex flex-col justify-center">
-              <li className=" text-center  pt-4 pb-4 mx-auto text-lg font-bold font-mono text-gray-100">
+              <li
+                id="depict5"
+                className=" text-center  pt-4 pb-4 mx-auto text-lg font-bold font-mono text-gray-900"
+              >
                 upcoming main drops:
               </li>
               <li className="text-center mx-auto text-md font-bold font-mono text-gray-100">
-                drop01 **shifty_sharks** LIVE 11/15/21
+                drop01 **shifty_sharks** LIVE 12/7/21
               </li>
               <li className="text-center mx-auto text-md font-bold font-mono text-gray-100">
-                drop02 **machine_elves** LIVE 12/15/21
+                drop02 **metahumans** LIVE 2/7/21
               </li>
               <li className="text-center  mx-auto text-md font-bold font-mono text-gray-100">
-                drop03 **metahumans** LIVE 1/15/21
+                drop03 **machine_elves** LIVE 4/7/21
               </li>
               <li className="text-center mx-auto text-md font-bold font-mono text-gray-100 pb-8 ">
-                drop04 **woodblocks** LIVE 2/15/21
+                drop04 **inviting_islands** LIVE 6/21/21
               </li>
             </ul>
           </div>
           <div className="w-2/5 pb-2 px-4 border rounded-md mx-1 mb-2">
-            <h2 className="flex justify-center py-4 mx-auto text-gray-100 text-lg font-bold font-mono">
-              featuring:
+            <h2
+              id="depict5"
+              className="flex justify-center py-4 mx-auto text-gray-800 text-lg font-bold font-mono"
+            >
+              main drops featuring:
             </h2>
             <ul className="flex flex-col mx-auto">
               <li className="mx-auto text-md font-bold font-mono text-gray-100">
                 on-chain art
               </li>
               <li className="mx-auto text-md font-bold font-mono text-gray-100">
-                multi-chain mechanics
+                trading mechanics
               </li>
               <li className="mx-auto text-md font-bold font-mono text-gray-100">
                 hidden token functionality
@@ -130,7 +136,10 @@ export default function Home({ isConnected }) {
           </div>
 
           <div className="pb-2 w-2/5 border rounded-md  mx-1 mb-2">
-            <h2 className="flex justify-center py-4 mx-auto text-gray-100 text-lg font-bold font-mono">
+            <h2
+              id="depict5"
+              className="flex justify-center py-4 mx-auto text-gray-800 text-lg font-bold font-mono"
+            >
               learn more:
             </h2>
             <ul className="flex flex-col mx-auto">
@@ -332,7 +341,7 @@ export default function Home({ isConnected }) {
         }
 
         #depict5 {
-          text-shadow: 2px 2px white;
+          text-shadow: 0.5px 0.5px white;
         }
       `}</style>
 

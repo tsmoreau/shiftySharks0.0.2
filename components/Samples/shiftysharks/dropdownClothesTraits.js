@@ -105,6 +105,18 @@ const people = [
     svgcode: clothesParts[15].svgcode,
     rarity: clothesParts[15].rarity,
     traitset: clothesParts[15].traitset
+  },
+  {
+    name: clothesParts[16].name,
+    svgcode: clothesParts[16].svgcode,
+    rarity: clothesParts[16].rarity,
+    traitset: clothesParts[16].traitset
+  },
+  {
+    name: clothesParts[17].name,
+    svgcode: clothesParts[17].svgcode,
+    rarity: clothesParts[17].rarity,
+    traitset: clothesParts[17].traitset
   }
 ];
 

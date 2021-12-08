@@ -99,6 +99,24 @@ const people = [
     svgcode: headParts[14].svgcode,
     rarity: headParts[14].rarity,
     traitset: headParts[14].traitset
+  },
+  {
+    name: headParts[15].name,
+    svgcode: headParts[15].svgcode,
+    rarity: headParts[15].rarity,
+    traitset: headParts[15].traitset
+  },
+  {
+    name: headParts[16].name,
+    svgcode: headParts[16].svgcode,
+    rarity: headParts[16].rarity,
+    traitset: headParts[16].traitset
+  },
+  {
+    name: headParts[17].name,
+    svgcode: headParts[17].svgcode,
+    rarity: headParts[17].rarity,
+    traitset: headParts[17].traitset
   }
 ];
 

@@ -18,13 +18,22 @@ export default function ReadWrite() {
           contact
         </p>
         <div className="w-full px-4 pt-16 pb-64">
-          <div class="mt-8 px-8 md:px-4 grid md:grid-cols-2 lg:grid-cols-3 gap-2 w-full">
-            <div className="w-full max-w-md p-2 mx-auto font-mono border rounded-lg">
+          <div class="mt-8 px-8 w-full flex justify-center ">
+            <div className="w-full flex flex-col items-center max-w-lg p-2 mx-1 font-mono border rounded-lg text-gray-50">
+              <a className="pt-1" href="https://twitter.com/depictlimited">
+                @depict.limited
+              </a>
+              <a className="py-1" href="https://discord.gg/BdwcEhrdFC">
+                https://discord.gg/dGpvturTpm
+              </a>
+              admin@depict.limited
+            </div>
+            <div className="w-full hidden max-w-md p-2 mx-1 font-mono border rounded-lg">
               <Disclosure className="flex flex-col justify-center text-center mx-auto border rounded-lg">
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex mx-auto text-sm leading-0 flex justify-between w-auto px-4 pt-2 text-sm font-medium text-left text-gray-800 bg-gray-0 rounded-lg ">
-                      <span>what is your refund policy?</span>
+                      <span>what is depict.limited?</span>
                       <ChevronDownIcon
                         className={`${
                           open ? "transform rotate-180" : ""

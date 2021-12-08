@@ -39,7 +39,7 @@ export default function Example() {
                 <Listbox.Option
                   key={personIdx}
                   className={({ active }) =>
-                    `${active ? "text-amber-900 bg-amber-100" : "text-gray-900"}
+                    `${active ? "text-gray-900 bg-gray-100" : "text-gray-900"}
                           cursor-default text-sm font-mono select-none relative py-2 pl-3 pr-4`
                   }
                   value={person}

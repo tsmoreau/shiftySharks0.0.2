@@ -87,23 +87,23 @@ export default function App() {
             <img src="/sharks/base.svg" />
           </SwiperSlide>
           <SwiperSlide className="rounded-full">
-            <img src="/sharks/download (1) (1).png" />
+            <img src="/sharks/screen.png" />
           </SwiperSlide>
           <SwiperSlide className="rounded-full">
-            <img src="/sharks/download (2) (1).png" />
+            <img src="/sharks/download (5) (1).png" />
           </SwiperSlide>
           <SwiperSlide className="rounded-full">
             <img src="/sharks/download (3) (1).png" />
           </SwiperSlide>
           <SwiperSlide className="rounded-full">
-            <img src="/sharks/download (4) (1).png" />
+            <img src="/sharks/download (1) (1).png" />
           </SwiperSlide>
 
           <SwiperSlide className="rounded-full">
-            <img src="/sharks/download (5) (1).png" />
+            <img src="/sharks/download (6) (1).png" />
           </SwiperSlide>
           <SwiperSlide className="rounded-full">
-            <img src="/sharks/download (6) (1).png" />
+            <img src="/sharks/download (2) (1).png" />
           </SwiperSlide>
         </Swiper>
 

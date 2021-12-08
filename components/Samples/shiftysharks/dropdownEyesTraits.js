@@ -80,6 +80,12 @@ const people = [
     svgcode: eyeParts[11].svgcode,
     rarity: eyeParts[11].rarity,
     traitset: eyeParts[11].traitset
+  },
+  {
+    name: eyeParts[12].name,
+    svgcode: eyeParts[12].svgcode,
+    rarity: eyeParts[12].rarity,
+    traitset: eyeParts[12].traitset
   }
 ];
 

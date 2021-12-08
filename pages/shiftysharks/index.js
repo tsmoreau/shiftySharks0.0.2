@@ -167,7 +167,7 @@ export default function ShiftySharksMainPage() {
                     </svg>
                   </button>
                 </a>
-                <a href="http://discord.com">
+                <a href="https://discord.gg/WCFTZ7sUV4">
                   <button
                     type="button"
                     className="w-8 h-8 rounded-full  mx-0.5 inline-flex text-base justify-center  transform -translate-y-0.5 mt-0 font-bold  text-sm font-medium text-gray-500  border border-transparent rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-500"
@@ -213,14 +213,15 @@ export default function ShiftySharksMainPage() {
                       Minting Cost is 3 MATIC.
                     </li>
                     <li className="px-1 lg:px-8 py-1.5">
-                      Reveal Cost is 6 MATIC.
+                      Reveal Cost is 10 MATIC.
                     </li>
                     <li className="px-1 lg:px-8 py-1.5">
-                      Total Cost (including gas) is ~10 MATIC.
+                      Total Cost is ~15-16 MATIC with current gas prices.
                     </li>
                     <li className="px-1 lg:px-8 py-1.5">
                       Unrevealed sharks are fully tradeable on OpenSea.
-                      Revealing is done individually per token here on Depict.
+                      Revealing is done individually per token here on Depict,
+                      and is not required.
                     </li>
                   </ul>
                 </div>
@@ -235,7 +236,7 @@ export default function ShiftySharksMainPage() {
                 <div className="my-1 px-5 py-4 font-mono lg:mx-0 text-gray-100 border rounded-lg h-auto text-center  items-center">
                   <ul>
                     <li className="px-1 lg:px-8 py-1.5">
-                      Trading of Traits and Re-Rolling of DNA Randomness
+                      Trading of Traits and Re-Rolling of Shark DNA Randomness
                       (Mutation) are coming in 2022.
                     </li>
                     <li className="px-1 py-2 lg:px-8 hidden lg:flex">
@@ -370,8 +371,8 @@ export default function ShiftySharksMainPage() {
       <div className="pb-44 shadow-lg pt-12 h-36 bg-indigo-800 w-full justify-center backdrop-filter backdrop-blur-lg bg-opacity-100">
         <ul className="w-44 text-gray-200 pt-6 font-mono text-sm flex flex-row justify-center text-center mx-auto">
           <li className=" mx-1.5">
-            <a href="/about" className="cursor-pointer">
-              about
+            <a href="/faq" className="cursor-pointer">
+              faq
             </a>
           </li>
           <li className=" mx-1.5">

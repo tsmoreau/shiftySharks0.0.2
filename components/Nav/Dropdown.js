@@ -39,13 +39,13 @@ export default function Example() {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <Listbox.Options className="absolute w-full py-1 mt-1.5 ml-6 overflow-auto text-base rounded-xl bg-white shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+            <Listbox.Options className="flex flex-col items-center justify-center absolute w-52 py-1 mt-1.5 mr-3 transform -translate-x-1.5 overflow-auto text-base rounded-xl bg-white shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
               {people.map((person, personIdx) => (
                 <Listbox.Option
                   key={personIdx}
                   className={({ active }) =>
                     `${active ? "text-gray-900 bg-gray-100" : "text-gray-900"}
-                          cursor-pointer text-sm font-mono select-none relative py-2 pl-3 pr-4`
+                          cursor-pointer text-sm font-mono w-full justify-center text-center flex mx-auto select-none relative py-2 pl-3 pr-4`
                   }
                   value={person.url}
                   disabled={person.unavailable}

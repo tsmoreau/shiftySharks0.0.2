@@ -3,8 +3,8 @@ export default function IndexPage() {
     <div className="pb-44 shadow-lg h-36 bg-depictpink-50 w-full justify-center backdrop-filter backdrop-blur-lg bg-opacity-100">
       <ul className="w-44 text-gray-100 pt-6 font-mono text-sm flex flex-row justify-center text-center mx-auto">
         <li className=" mx-1.5">
-          <a href="/about" className="cursor-pointer">
-            about
+          <a href="/faq" className="cursor-pointer">
+            faq
           </a>
         </li>
         <li className=" mx-1.5">

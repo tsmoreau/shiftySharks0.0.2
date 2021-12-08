@@ -105,6 +105,18 @@ const people = [
     svgcode: rightfinParts[15].svgcode,
     rarity: rightfinParts[15].rarity,
     traitset: rightfinParts[15].traitset
+  },
+  {
+    name: rightfinParts[16].name,
+    svgcode: rightfinParts[16].svgcode,
+    rarity: rightfinParts[16].rarity,
+    traitset: rightfinParts[16].traitset
+  },
+  {
+    name: rightfinParts[17].name,
+    svgcode: rightfinParts[17].svgcode,
+    rarity: rightfinParts[17].rarity,
+    traitset: rightfinParts[17].traitset
   }
 ];
 
